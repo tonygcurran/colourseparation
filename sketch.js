@@ -46,7 +46,7 @@ gnum = round(random(4,7));
   rnum1 = round(random(4,7));
   bnum1 = round(random(4,7));
   
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(windowWidth, windowHeight);
   graphics = createGraphics(width, height);
   rgraphics = createGraphics(width, height);
     bgraphics = createGraphics(width, height);
