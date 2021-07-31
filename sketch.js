@@ -229,6 +229,10 @@ function redplate() {
       if (ralpha[i] > 255){
         ralpha[i] = random(255);
       }
+      if (ralpha[i] < 10) {
+        ralpha[i] = random(255);
+      }
+        
   }
 
 
@@ -305,7 +309,7 @@ graphics.blendMode(BLEND);
       if (galpha[i] > 255){
         galpha[i] = random(255);
       }
-      if (galpha[i] < 0)
+      if (galpha[i] < 10)
         galpha[i] = random(255);
   }
 
