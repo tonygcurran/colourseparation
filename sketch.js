@@ -312,6 +312,7 @@ graphics.blendMode(BLEND);
       if (galpha[i] < 10){
         galpha[i] = random(255);
   }
+    }
 
 
   
@@ -392,6 +393,7 @@ function blueplate() {
         balpha[i] = random(255);
       
       }
+    }
 
 
   
