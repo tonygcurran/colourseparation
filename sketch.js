@@ -305,6 +305,8 @@ graphics.blendMode(BLEND);
       if (galpha[i] > 255){
         galpha[i] = random(255);
       }
+      if (galpha[i] < 0)
+        galpha[i] = random(255);
   }
 
 
